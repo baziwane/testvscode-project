@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd ./src/PartyInvites/ 
+cd ../tests/PartyInvites.Tests/ 
 dotnet restore
 dotnet build
 dotnet test
