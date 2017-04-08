@@ -1,2 +1,5 @@
 #!/usr/bin/env bash
-dotnet build && dotnet test
+cd ./src/PartyInvites/ 
+dotnet restore
+dotnet build
+dotnet test
